@@ -1,0 +1,27 @@
+# Python virtual environment
+venv/
+
+# Dataset & trained models (keep local)
+data/
+saved_models/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs, checkpoints, temp files
+*.log
+*.pth
+*.pt
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# System / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Environment files
+*.env
