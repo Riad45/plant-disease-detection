@@ -1,0 +1,12 @@
+DATA INTEGRITY VERIFICATION REPORT
+============================================================
+
+Total images scanned: 20624
+Train images: 16499
+Val images: 2062
+Test images: 2063
+
+✓ No MD5 leakage found across splits.
+
+✓ No filename collisions across splits.
+
