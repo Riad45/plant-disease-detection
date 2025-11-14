@@ -1,0 +1,33 @@
+{
+  "model": "Vision Transformer Base (ViT-B/16)",
+  "training": {
+    "total_epochs": 30,
+    "best_epoch": 20,
+    "best_val_accuracy": 99.5635305528613,
+    "best_val_loss": 0.570628516433775,
+    "final_train_accuracy": 99.87271955876113,
+    "final_val_accuracy": 99.32104752667313
+  },
+  "evaluation": {
+    "test_accuracy": 99.36984973339797,
+    "f1_score_weighted": 0.993702071977827
+  },
+  "architecture": {
+    "patch_size": 16,
+    "image_size": 224,
+    "num_layers": 12,
+    "num_heads": 12,
+    "hidden_dim": 768,
+    "mlp_dim": 3072,
+    "parameters": 86567427
+  },
+  "comparison_with_efficientnet": {
+    "efficientnet_accuracy": 99.76,
+    "vit_accuracy": 99.36984973339797,
+    "accuracy_difference": -0.3901502666020349,
+    "efficientnet_params": 10719287,
+    "vit_params": 86567427,
+    "params_ratio": 8.07585681771558
+  },
+  "timestamp": "2025-11-14T21:50:47.126689"
+}

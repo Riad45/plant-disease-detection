@@ -1,0 +1,9 @@
+Metric,Value
+Model,Vision Transformer Base
+Test Accuracy (%),99.37
+F1 Score,0.9937
+Best Val Accuracy (%),99.56
+Best Epoch,20
+Total Epochs,30
+Parameters (M),86.5
+vs EfficientNet-B3,-0.39%
